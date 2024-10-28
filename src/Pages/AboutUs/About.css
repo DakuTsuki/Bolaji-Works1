@@ -1,0 +1,155 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ 
+ 
+ 
+ .body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  background-color: white;
+}
+
+.logo{
+    width: 80px;
+}
+
+ .logo img{
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 0;
+    margin: 0;
+    padding: 0.45rem;
+}
+
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1.2rem;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+
+   nav ul li a{
+    text-decoration: none;
+    color: #151B54;
+}
+
+.about-container h6{
+  color: white;
+  padding-top: 120px;
+  font-size: 4rem;
+  text-align: center;
+}
+
+
+.about-container h1{
+    padding-left: 30px;
+    padding-top: 50px;
+    font-family:unset;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    line-height: 1.4;
+    padding-bottom: 5px;
+}
+
+.about-container h3{
+  padding-left: 30px;
+  font-family:unset;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  font-weight: lighter;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+
+ .about-container h2{
+  padding-left: 30px;
+  font-family:unset;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  font-weight: lighter;
+  padding-bottom: 5px;
+}
+
+ .about-container h4{
+  padding-left: 30px;
+  font-family:unset;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-weight: lighter;
+  padding-bottom: 5px;
+}
+ 
+  .about-container h5{
+    padding-left: 30px;
+    font-family: unset;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: lighter;
+    padding-bottom: 5px;
+}
+
+.box-container{
+  display: flex;
+  padding-bottom: 2%;
+  background-color: #000;
+  padding-left:40px;
+  padding-right: 20px;
+  padding-top: 50px;
+  gap: 80px;
+  height: 60vh;
+ }
+ 
+  .logotwo{
+    width:100px;
+   
+ 
+ }
+ 
+  .logotwo img{
+   width: 100%;
+ 
+ }
+ 
+  .box h1{
+   color: #F5F5F5;
+   font-size: 1.3rem;
+ }
+ 
+ .footer .box a{
+   font-size: 1.1rem;
+   color: #fff;
+   padding-top:30px;
+   line-height: 1.4;
+   position: 500px;
+   text-decoration: none;
+   
+ }
+ .box{
+   list-style: none;
+   padding-left:40px;
+ 
+ }
+ 
+  .copyright-container p{
+    text-align: center;
+    color: #fff;
+    border-top: 2px solid #333673;
+    padding-top: 10px;
+    background-color: #000;
+}
