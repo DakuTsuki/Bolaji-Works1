@@ -10,6 +10,8 @@ import Caris from './Caris/Caris'
 import Containers from './Containers/Containers'
 import Footer from './Footer/Footer'
 import Contact from './Contact/Contact'
+import Favicon from './favicon/Favicon'
+import Title from './Title/Title'
 
 export {
   Header, 
@@ -23,6 +25,7 @@ export {
   Caris,
   Containers,
   Footer,
-  Contact
-
+  Contact,
+  Favicon,
+  Title
 }
