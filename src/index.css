@@ -67,12 +67,12 @@ header {
   padding-left: 90px;
   padding-top: 50px;
   font-size: 1.9rem;
-  width: 50%;
+  width: 95%;
+  text-align: left;
   color: #fff;
   height: 38vh;
   background-color: #151b54;
 }
-
 .btntwo {
   display: inline-block;
   background: #fff;
@@ -831,7 +831,6 @@ footer .box1 a {
 }
 .banner-content {
   padding-top: 50px;
-  text-align: center;
   padding-left: 0;
 }
 .about-container h4 {
