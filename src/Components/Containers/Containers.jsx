@@ -56,26 +56,26 @@ const Containers = () => {
                      </div>
                   <div class="landing-content">
                 
-                    <h1>PINNOCK<br/>
+                    <h1>PINNOCK
                         BEACH</h1>
          
                       <h3>
-                        A well planned housing project<br/>
-                       built by Foresight reality partners at,<br/>
-                        PINNOCK BEACH ESTATE, LEKKI.</h3><br/>
+                        A well planned housing project
+                       built by Foresight reality partners at,
+                        PINNOCK BEACH ESTATE, LEKKI.</h3>
                   </div>
                 </div>
 
                 <div class="sub-project-container">
                   <div class="project-content">
         
-                    <h1>PINNOCK<br/>
+                    <h1>PINNOCK
                         BEACH</h1>
          
                       <h3>
-                        A well planned housing project<br/>
-                       built by Foresight reality partners at,<br/>
-                        PINNOCK BEACH ESTATE, LEKKI.</h3><br/>
+                        A well planned housing project
+                       built by Foresight reality partners at,
+                        PINNOCK BEACH ESTATE, LEKKI.</h3>
                   </div>
                  
                   <div class="project-image"> 
@@ -89,13 +89,13 @@ const Containers = () => {
                      </div>
                   <div class="landing-content">
                   
-                    <h1>PINNOCK<br/>
+                    <h1>PINNOCK
                         BEACH</h1>
          
                       <h3>
-                        A well planned housing project<br/>
-                       built by Foresight reality partners at,<br/>
-                        PINNOCK BEACH ESTATE, LEKKI.</h3><br/>
+                        A well planned housing project
+                       built by Foresight reality partners at,
+                        PINNOCK BEACH ESTATE, LEKKI.</h3>
                   </div>
                 </div>
 
@@ -104,13 +104,13 @@ const Containers = () => {
                   <div class="project-content">
         
               
-                    <h1>PINNOCK<br/>
+                    <h1>PINNOCK
                         BEACH</h1>
          
                       <h3>
-                        A well planned housing project<br/>
-                       built by Foresight reality partners at,<br/>
-                        PINNOCK BEACH ESTATE, LEKKI.</h3><br/>
+                        A well planned housing project
+                       built by Foresight reality partners at,
+                        PINNOCK BEACH ESTATE, LEKKI.</h3>
                   </div>
                  
                   <div class="project-image">
@@ -128,13 +128,13 @@ const Containers = () => {
                    </div>
                 <div class="landing-content">
                
-                  <h1>PINNOCK<br/>
+                  <h1>PINNOCK
                       BEACH</h1>
        
                     <h3>
-                      A well planned housing project<br/>
-                     built by Foresight reality partners at,<br/>
-                      PINNOCK BEACH ESTATE, LEKKI.</h3><br/>
+                      A well planned housing project
+                     built by Foresight reality partners at,
+                      PINNOCK BEACH ESTATE, LEKKI.</h3>
                 </div>
               </div>
 
@@ -143,13 +143,13 @@ const Containers = () => {
                 <div class="project-content">
       
                   
-                  <h1>PINNOCK<br/>
+                  <h1>PINNOCK
                       BEACH</h1>
        
                     <h3>
-                      A well planned housing project<br/>
-                     built by Foresight reality partners at,<br/>
-                      PINNOCK BEACH ESTATE, LEKKI.</h3><br/>
+                      A well planned housing project
+                     built by Foresight reality partners at,
+                      PINNOCK BEACH ESTATE, LEKKI.</h3>
                 </div>
                
                 <div class="project-image">
