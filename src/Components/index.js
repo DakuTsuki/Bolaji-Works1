@@ -12,6 +12,7 @@ import Footer from './Footer/Footer'
 import Contact from './Contact/Contact'
 import Favicon from './favicon/Favicon'
 import Title from './Title/Title'
+import BottomHero from './bottom hero/BottomHero'
 
 export {
   Header, 
@@ -27,5 +28,6 @@ export {
   Footer,
   Contact,
   Favicon,
-  Title
+  Title,
+  BottomHero
 }

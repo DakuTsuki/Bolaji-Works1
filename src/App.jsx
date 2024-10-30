@@ -1,5 +1,5 @@
 import React from "react";
-import { Header } from "./Components";
+import { BottomHero, Header } from "./Components";
 import { Hero } from "./Components";
 import { About } from "./Components";
 import { Services } from "./Components";
@@ -27,6 +27,7 @@ export default function Root() {
       <Review />
       <Preview />
       <Caris />
+      <BottomHero />
       <Containers />
       <Footer />
     </>

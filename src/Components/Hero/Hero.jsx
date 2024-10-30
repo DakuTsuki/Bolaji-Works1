@@ -13,7 +13,7 @@ const Hero = () => {
            <h4>I am a seasoned Real Estate
                Developer + Realtor</h4>
         
-            <button class="btntwo">View My Portfolio </button>
+            {/* <button class="btntwo">View My Portfolio </button> */}
 
             </div>
             <div class="banner">

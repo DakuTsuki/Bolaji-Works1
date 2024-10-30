@@ -5,12 +5,14 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  background: hsl(192, 24%, 96%);;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 .logo {
@@ -27,7 +29,7 @@ header {
   align-items: center;
   position: fixed;
   width: 100%;
-  background-color: #f5f5f5;
+  background-color: hsl(192, 24%, 96%);
   padding: 0;
   margin: 0;
   padding: 0 4.5rem;
@@ -122,6 +124,7 @@ header {
   background-color: #fff;
   color: #151b54;
   margin-top: 50px;
+  margin-left: 2%;
   padding: 14px 70px;
   cursor: pointer;
   border-radius: 25px;
@@ -655,9 +658,9 @@ footer {
   padding-left: 40px;
   padding-right: 20px;
   padding-top: 50px;
- 
+  width: 100%;
   gap: 80px;
-  height: 85vh;
+  height: 100%;
 }
 .logo2 {
   width: 100px;
@@ -796,9 +799,9 @@ footer .box1 a {
   .sub-contact-container {
     padding: 4% 4%;
   }
-  .box-container1 {
+  /* .box-container1 {
     height: 83vh;
-}
+} */
 
 }
 
@@ -810,7 +813,7 @@ footer .box1 a {
   .box-container1 {
     display: grid;
     grid-template-areas: "1fr 1fr";
-    height: 70vh;
+    /* height: 70vh; */
     gap: 0;
 }
 .Project-container{
@@ -921,6 +924,11 @@ footer .box1 a {
 }
 }
 @media (max-width: 768px) {
+  .btn {
+    margin-left: 5%;
+    padding: 9px 50px;
+    font-size: 1.2rem;
+}
   .hamburger{
     display: block;
   }
