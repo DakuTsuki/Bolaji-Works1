@@ -22,13 +22,14 @@ export default function Root() {
       <Hero />
       <About />
       <Services />
-      <Project />
+      {/* <Project /> */}
+      <br />
       <Feedback />
       <Review />
       <Preview />
       <Caris />
       <BottomHero />
-      <Containers />
+      {/* <Containers /> */}
       <Footer />
     </>
   );

@@ -14,7 +14,9 @@ body {
   box-sizing: border-box;
 
 }
-
+header{
+  z-index: 100;
+}
 .logo {
   width: 80px;
 }
@@ -119,20 +121,17 @@ header {
   padding-bottom: 5px;
   text-align: left;
 }
-
 .btn {
   background-color: #fff;
   color: #151b54;
-  margin-top: 50px;
+  margin-top: 19px;
   margin-left: 2%;
   padding: 14px 70px;
   cursor: pointer;
   border-radius: 25px;
-  margin-bottom: 70px;
   font-size: 1.4rem;
   font-weight: bolder;
 }
-
 .service-container {
   text-align: center;
   color: #151b54;
@@ -509,9 +508,9 @@ header {
 .caris-container h1 {
   font-size: 1.6rem;
 }
-
 .caris-container img {
   width: 30%;
+  margin-left: 13%;
 }
 
 .caris-image {
@@ -731,6 +730,7 @@ footer .box1 a {
   display: none;
   background-color: white;
   color: blue;
+  z-index: 1;
   padding: 10px;
 }
 .header-small h1{
@@ -739,6 +739,7 @@ footer .box1 a {
 .header-small img{
   width: 18%;
 }
+
 .header-small .menu-toggle{
   background-color: none;
   border: none;
