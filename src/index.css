@@ -140,7 +140,9 @@ header {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-
+.service-container h1{
+    font-size: 1.4rem;
+}
 .service-content {
   display: flex;
   width: 100%;

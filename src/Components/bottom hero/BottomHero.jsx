@@ -8,6 +8,13 @@ import property2 from  '../../assets/image/property-2.jpg'
 import property3 from '../../assets/image/property-3.jpg'
 import property4 from '../../assets/image/property-4.png'
 import author from '../../assets/image/author.jpg'
+import { IoBedOutline } from "react-icons/io5";
+import { IoManOutline } from "react-icons/io5";
+import { FaRegSquare } from "react-icons/fa";
+import { IoLocationOutline } from "react-icons/io5";
+import { IoIosCamera } from "react-icons/io";
+import { IoFilm } from "react-icons/io5";
+
 import './style.css'
 
 const BottomHero = () => {
@@ -32,24 +39,24 @@ const BottomHero = () => {
                     <img src={property} alt="New Apartment Nice View" class="w-100"/> 
                   </a>
 
-                  <div class="card-badge green">For Rent</div>
+                  {/* <div class="card-badge green">For Rent</div> */}
 
                   <div class="banner-actions">
 
                     <button class="banner-actions-btn">
-                      <ion-icon name="location"></ion-icon>
+                    <IoLocationOutline />
 
                       <address>Belmont Gardens, Chicago</address>
                     </button>
 
                     <button class="banner-actions-btn">
-                      <ion-icon name="camera"></ion-icon>
+                    <IoIosCamera />
 
                       <span>4</span>
                     </button>
 
                     <button class="banner-actions-btn">
-                      <ion-icon name="film"></ion-icon>
+                    <IoFilm />
 
                       <span>2</span>
                     </button>
@@ -60,9 +67,9 @@ const BottomHero = () => {
 
                 <div class="card-content">
 
-                  <div class="card-price">
+                  {/* <div class="card-price">
                     <strong>$34,900</strong>/Month
-                  </div>
+                  </div> */}
 
                   <h3 class="h3 card-title">
                     <a href="#">New Apartment Nice View</a>
@@ -77,7 +84,7 @@ const BottomHero = () => {
                     <li class="card-item">
                       <strong>3</strong>
 
-                      <ion-icon name="bed-outline"></ion-icon>
+                     <IoBedOutline />
 
                       <span>Bedrooms</span>
                     </li>
@@ -85,7 +92,7 @@ const BottomHero = () => {
                     <li class="card-item">
                       <strong>2</strong>
 
-                      <ion-icon name="man-outline"></ion-icon>
+                   <IoManOutline />
 
                       <span>Bathrooms</span>
                     </li>
@@ -93,7 +100,7 @@ const BottomHero = () => {
                     <li class="card-item">
                       <strong>3450</strong>
 
-                      <ion-icon name="square-outline"></ion-icon>
+                      <FaRegSquare />
 
                       <span>Square Ft</span>
                     </li>
@@ -102,7 +109,7 @@ const BottomHero = () => {
 
                 </div>
 
-                <div class="card-footer">
+                {/* <div class="card-footer">
 
                   <div class="card-author">
 
@@ -136,7 +143,7 @@ const BottomHero = () => {
 
                   </div>
 
-                </div>
+                </div> */}
 
               </div>
             </li>
@@ -150,24 +157,24 @@ const BottomHero = () => {
                     <img src={property2} alt="Modern Apartments" class="w-100" />
                   </a>
 
-                  <div class="card-badge orange">For Sales</div>
+                  {/* <div class="card-badge orange">For Sales</div> */}
 
                   <div class="banner-actions">
 
                     <button class="banner-actions-btn">
-                      <ion-icon name="location"></ion-icon>
+                    <IoLocationOutline />
 
                       <address>Belmont Gardens, Chicago</address>
                     </button>
 
                     <button class="banner-actions-btn">
-                      <ion-icon name="camera"></ion-icon>
+                    <IoIosCamera />
 
                       <span>4</span>
                     </button>
 
                     <button class="banner-actions-btn">
-                      <ion-icon name="film"></ion-icon>
+                    <IoFilm />
 
                       <span>2</span>
                     </button>
@@ -178,9 +185,9 @@ const BottomHero = () => {
 
                 <div class="card-content">
 
-                  <div class="card-price">
+                  {/* <div class="card-price">
                     <strong>$34,900</strong>/Month
-                  </div>
+                  </div> */}
 
                   <h3 class="h3 card-title">
                     <a href="#">Modern Apartments</a>
@@ -192,34 +199,34 @@ const BottomHero = () => {
 
                   <ul class="card-list">
 
-                    <li class="card-item">
-                      <strong>3</strong>
+<li class="card-item">
+  <strong>3</strong>
 
-                      <ion-icon name="bed-outline"></ion-icon>
+ <IoBedOutline />
 
-                      <span>Bedrooms</span>
-                    </li>
+  <span>Bedrooms</span>
+</li>
 
-                    <li class="card-item">
-                      <strong>2</strong>
+<li class="card-item">
+  <strong>2</strong>
 
-                      <ion-icon name="man-outline"></ion-icon>
+<IoManOutline />
 
-                      <span>Bathrooms</span>
-                    </li>
+  <span>Bathrooms</span>
+</li>
 
-                    <li class="card-item">
-                      <strong>3450</strong>
+<li class="card-item">
+  <strong>3450</strong>
 
-                      <ion-icon name="square-outline"></ion-icon>
+  <FaRegSquare />
 
-                      <span>Square Ft</span>
-                    </li>
+  <span>Square Ft</span>
+</li>
 
-                  </ul>
+</ul>
 
                 </div>
-
+{/* 
                 <div class="card-footer">
 
                   <div class="card-author">
@@ -254,7 +261,7 @@ const BottomHero = () => {
 
                   </div>
 
-                </div>
+                </div> */}
 
               </div>
             </li>
@@ -268,24 +275,24 @@ const BottomHero = () => {
                     <img src={property3} alt="Comfortable Apartment" class="w-100" />
                   </a>
 
-                  <div class="card-badge green">For Rent</div>
+                  {/* <div class="card-badge green">For Rent</div> */}
 
                   <div class="banner-actions">
 
                     <button class="banner-actions-btn">
-                      <ion-icon name="location"></ion-icon>
+                    <IoLocationOutline />
 
                       <address>Belmont Gardens, Chicago</address>
                     </button>
 
                     <button class="banner-actions-btn">
-                      <ion-icon name="camera"></ion-icon>
+                    <IoIosCamera />
 
                       <span>4</span>
                     </button>
 
                     <button class="banner-actions-btn">
-                      <ion-icon name="film"></ion-icon>
+                    <IoFilm />
 
                       <span>2</span>
                     </button>
@@ -296,9 +303,9 @@ const BottomHero = () => {
 
                 <div class="card-content">
 
-                  <div class="card-price">
+                  {/* <div class="card-price">
                     <strong>$34,900</strong>/Month
-                  </div>
+                  </div> */}
 
                   <h3 class="h3 card-title">
                     <a href="#">Comfortable Apartment</a>
@@ -310,35 +317,35 @@ const BottomHero = () => {
 
                   <ul class="card-list">
 
-                    <li class="card-item">
-                      <strong>3</strong>
+<li class="card-item">
+  <strong>3</strong>
 
-                      <ion-icon name="bed-outline"></ion-icon>
+ <IoBedOutline />
 
-                      <span>Bedrooms</span>
-                    </li>
+  <span>Bedrooms</span>
+</li>
 
-                    <li class="card-item">
-                      <strong>2</strong>
+<li class="card-item">
+  <strong>2</strong>
 
-                      <ion-icon name="man-outline"></ion-icon>
+<IoManOutline />
 
-                      <span>Bathrooms</span>
-                    </li>
+  <span>Bathrooms</span>
+</li>
 
-                    <li class="card-item">
-                      <strong>3450</strong>
+<li class="card-item">
+  <strong>3450</strong>
 
-                      <ion-icon name="square-outline"></ion-icon>
+  <FaRegSquare />
 
-                      <span>Square Ft</span>
-                    </li>
+  <span>Square Ft</span>
+</li>
 
-                  </ul>
+</ul>
 
                 </div>
 
-                <div class="card-footer">
+                {/* <div class="card-footer">
 
                   <div class="card-author">
 
@@ -372,7 +379,7 @@ const BottomHero = () => {
 
                   </div>
 
-                </div>
+                </div> */}
 
               </div>
             </li>
@@ -386,24 +393,24 @@ const BottomHero = () => {
                     <img src={property4} alt="Luxury villa in Rego Park" class="w-100" />
                   </a>
 
-                  <div class="card-badge green">For Rent</div>
+                  {/* <div class="card-badge green">For Rent</div> */}
 
                   <div class="banner-actions">
 
                     <button class="banner-actions-btn">
-                      <ion-icon name="location"></ion-icon>
+                    <IoLocationOutline />
 
                       <address>Belmont Gardens, Chicago</address>
                     </button>
 
                     <button class="banner-actions-btn">
-                      <ion-icon name="camera"></ion-icon>
+                    <IoIosCamera />
 
                       <span>4</span>
                     </button>
 
                     <button class="banner-actions-btn">
-                      <ion-icon name="film"></ion-icon>
+                    <IoFilm />
 
                       <span>2</span>
                     </button>
@@ -414,9 +421,9 @@ const BottomHero = () => {
 
                 <div class="card-content">
 
-                  <div class="card-price">
+                  {/* <div class="card-price">
                     <strong>$34,900</strong>/Month
-                  </div>
+                  </div> */}
 
                   <h3 class="h3 card-title">
                     <a href="#">Luxury villa in Rego Park</a>
@@ -428,35 +435,34 @@ const BottomHero = () => {
 
                   <ul class="card-list">
 
-                    <li class="card-item">
-                      <strong>3</strong>
+<li class="card-item">
+  <strong>3</strong>
 
-                      <ion-icon name="bed-outline"></ion-icon>
+ <IoBedOutline />
 
-                      <span>Bedrooms</span>
-                    </li>
+  <span>Bedrooms</span>
+</li>
 
-                    <li class="card-item">
-                      <strong>2</strong>
+<li class="card-item">
+  <strong>2</strong>
 
-                      <ion-icon name="man-outline"></ion-icon>
+<IoManOutline />
 
-                      <span>Bathrooms</span>
-                    </li>
+  <span>Bathrooms</span>
+</li>
 
-                    <li class="card-item">
-                      <strong>3450</strong>
+<li class="card-item">
+  <strong>3450</strong>
 
-                      <ion-icon name="square-outline"></ion-icon>
+  <FaRegSquare />
 
-                      <span>Square Ft</span>
-                    </li>
+  <span>Square Ft</span>
+</li>
 
-                  </ul>
-
+</ul>
                 </div>
 
-                <div class="card-footer">
+                {/* <div class="card-footer">
 
                   <div class="card-author">
 
@@ -490,7 +496,7 @@ const BottomHero = () => {
 
                   </div>
 
-                </div>
+                </div> */}
 
               </div>
             </li>
@@ -504,7 +510,7 @@ const BottomHero = () => {
       <section class="service" id="service">
         <div class="container">
 
-          <p class="section-subtitle">Our Services</p>
+          {/* <p class="section-subtitle">Our Services</p> */}
 
           <h2 class="h2 section-title">Our Main Focus</h2>
 

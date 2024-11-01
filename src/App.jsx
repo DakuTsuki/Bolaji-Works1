@@ -10,6 +10,7 @@ import { Preview } from "./Components";
 import { Caris } from "./Components";
 import { Containers } from "./Components";
 import { Footer } from "./Components";
+import { AboutUs } from "./Components";
 // import { Home } from "./Pages";
 // import Blogs from "./Pages/blogs";
 // import SignUp from "./Pages/signup";
@@ -26,8 +27,9 @@ export default function Root() {
       <br />
       <Feedback />
       <Review />
-      <Preview />
-      <Caris />
+      <AboutUs />
+      {/* <Preview />
+      <Caris /> */}
       <BottomHero />
       {/* <Containers /> */}
       <Footer />

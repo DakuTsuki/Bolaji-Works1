@@ -13,7 +13,7 @@ import Contact from './Contact/Contact'
 import Favicon from './favicon/Favicon'
 import Title from './Title/Title'
 import BottomHero from './bottom hero/BottomHero'
-
+import AboutUs from './AboutUs/AboutUs'
 export {
   Header, 
   Hero,
@@ -29,5 +29,6 @@ export {
   Contact,
   Favicon,
   Title,
-  BottomHero
+  BottomHero,
+  AboutUs
 }
