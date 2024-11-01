@@ -17,7 +17,7 @@ const BottomHero = () => {
     <section class="property" id="property">
         <div class="container">
 
-          <p class="section-subtitle">Properties</p>
+          {/* <p class="section-subtitle">Properties</p> */}
 
           <h2 class="h2 section-title">Featured Listings</h2>
 

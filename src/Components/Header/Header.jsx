@@ -55,19 +55,19 @@ const Header = React.memo(() => {
                         
                         <IoIosCloseCircle  onClick={menuToggle}/>
                         <li>
-                            <a href="#home">Home</a>
+                            <a Linkto="#home">Home</a>
                         </li>
                         <li>
-                            <a href="/aboutus">About</a>
+                            <a Linkto="/aboutus">About</a>
                         </li>
                         <li>
-                            <a href="/projectpage">Project</a>
+                            <a Linkto="/projectpage">Project</a>
                         </li>
                         <li>
-                            <a href="/charity">Charity</a>
+                            <a Linkto="/charity">Charity</a>
                         </li>
                         <li>
-                            <a href="/contact">Contact</a>
+                            <a Linkto="/contact">Contact</a>
                         </li>
                     </ul>
                 </nav>
