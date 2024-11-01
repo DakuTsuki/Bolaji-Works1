@@ -69,7 +69,7 @@ header {
 
 .banner-content {
   padding-left: 90px;
-  padding-top: 50px;
+  padding-top: 110px;
   font-size: 1.9rem;
   width: 95%;
   text-align: left;
@@ -951,6 +951,12 @@ footer .box1 a {
   }
 }
 @media (max-width: 700px) {
+  .container-4 h1 {
+    margin-top: 41px;
+}
+.container-3 h1 {
+  margin-top: 41px;
+}
 
   .ready{
     flex-direction: column;
@@ -981,7 +987,7 @@ footer .box1 a {
 @media (max-width: 600px) {
   .sub-feedback-container {
     grid-template-areas: "1fr";
-    padding: 0 25%;
+    padding: 0 2%;
 }
 .container-1 {
   width: 77%;
@@ -1022,25 +1028,25 @@ footer .box1 a {
   .container-1 {
     width: 95%;
     height: 42vh;
-    margin-left: -2px;
+    margin-left: 10px;
     font-size: 0.9rem;
 }
 .container-2 {
   width: 95%;
   height: 42vh;
-  margin-left: -2px;
+  margin-left: 10px;
   font-size: 0.9rem;
 }
 .container-3 {
   width: 96%;
   height: 48vh;
-  margin-left: -2px;
+  margin-left: 10px;
   font-size: 0.9rem;
 }
 .container-4 {
   width: 95%;
   height: 46vh;
-  margin-left: -2px;
+  margin-left: 10px;
   font-size: 0.9rem;
 }
 }
