@@ -1,6 +1,7 @@
 import React, { useState, useCallback } from "react";
 import Logo from "../../assets/image/logo.png";
 import { IoIosCloseCircle } from "react-icons/io";
+import { Link } from 'react-router-dom'
 import "../../index.css";
 
 // import ProjectPage from '../../Pages/ProjectPage/ProjectPage'
@@ -24,20 +25,20 @@ const Header = React.memo(() => {
         <nav className="menu">
           {" "}
           <ul>
-            <li>
-              <a href="/home">Home</a>
+          <li>
+              <Link to="/home">Home</Link> {/* Using Link here */}
             </li>
             <li>
-              <a href="/aboutus">About</a>
+              <Link to="/aboutus">About</Link> {/* Using Link here */}
             </li>
             <li>
-              <a href="/projectpage">Project</a>
+              <Link to="/projectpage">Project</Link> {/* Using Link here */}
             </li>
             <li>
-              <a href="/charity">Charity</a>
+              <Link to="/charity">Charity</Link> {/* Using Link here */}
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <Link to="/contact">Contact</Link> {/* Using Link here */}
             </li>
           </ul>
         </nav>
@@ -55,20 +56,20 @@ const Header = React.memo(() => {
                         
                         <IoIosCloseCircle  onClick={menuToggle}/>
                         <li>
-                            <a Linkto="#home">Home</a>
-                        </li>
-                        <li>
-                            <a Linkto="/aboutus">About</a>
-                        </li>
-                        <li>
-                            <a Linkto="/projectpage">Project</a>
-                        </li>
-                        <li>
-                            <a Linkto="/charity">Charity</a>
-                        </li>
-                        <li>
-                            <a Linkto="/contact">Contact</a>
-                        </li>
+              <Link to="/home">Home</Link> {/* Using Link here */}
+            </li>
+            <li>
+              <Link to="/aboutus">About</Link> {/* Using Link here */}
+            </li>
+            <li>
+              <Link to="/projectpage">Project</Link> {/* Using Link here */}
+            </li>
+            <li>
+              <Link to="/charity">Charity</Link> {/* Using Link here */}
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link> {/* Using Link here */}
+            </li>
                     </ul>
                 </nav>
             </header>
