@@ -931,6 +931,9 @@ footer .box1 a {
 }
 }
 @media (max-width: 768px) {
+  .caris-container {
+    padding-top: 26%;
+}
   .banner-container{
     display: none;
   }
