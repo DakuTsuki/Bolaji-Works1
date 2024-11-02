@@ -3,6 +3,7 @@ import img1 from '../../assets/image/Screenshot__6_-removebg-preview.png'
 import img2 from '../../assets/image/Screenshot__4_-removebg-preview.png'
 import '../../index.css'
 import './contact.css'
+import '../bottom hero/style.css'
 const Contact = () => {
   return (
     <div>

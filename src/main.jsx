@@ -11,6 +11,7 @@ import { AboutUs, ContactUs, ProjectPage } from "./Pages";
 import { Home } from './Pages'
 import { Favicon } from './Components'; // Import the Favicon component
 import { Title } from './Components';
+import Charity from './Pages/Charity/Charity';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <ContactUs />
+  },
+  {
+    path: "/charity",
+    element: <Charity />
   }
 ]);
 

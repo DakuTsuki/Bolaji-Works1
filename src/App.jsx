@@ -31,7 +31,7 @@ export default function Root() {
       {/* <Preview />
       <Caris /> */}
       <BottomHero />
-      {/* <Containers /> */}
+      <Containers />
       <Footer />
     </>
   );
