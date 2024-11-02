@@ -1,8 +1,10 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import {
-    HashRouter, // Import HashRouter instead
-    Navigate // Import Navigate for redirection
+    HashRouter,
+    Routes, // Import Routes
+    Route, // Import Route
+    Navigate
 } from 'react-router-dom';
 import App from './App';
 import './index.css';
@@ -13,7 +15,7 @@ import { Title } from './Components';
 import Charity from './Pages/Charity/Charity';
 import AppProvider from './AppContext'; // Import the AppProvider
 
-// Define your routes with HashRouter
+// Define your routes
 const routes = [
     { path: "/", element: <App /> },
     { path: "/home", element: <Navigate to="/" replace /> }, // Redirect /home to /
@@ -27,13 +29,14 @@ createRoot(document.getElementById('root')).render(
     <StrictMode>
         <AppProvider>
             <HashRouter>
-                {/* Use your routing structure here */}
-                {routes.map(route => (
-                    <Route key={route.path} path={route.path} element={route.element} />
-                ))}
+                <Routes> {/* Wrap routes with Routes */}
+                    {routes.map(route => (
+                        <Route key={route.path} path={route.path} element={route.element} />
+                    ))}
+                </Routes>
+                <Favicon iconPath='/assets/image/logo.png' />
+                <Title title="Bolaji Aderigbe" />
             </HashRouter>
-            <Favicon iconPath='/assets/image/logo.png' />
-            <Title title="Bolaji Aderigbe" />
         </AppProvider>
     </StrictMode>,
 );
