@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../index.css'
+
 const About = () => {
   return (
     <div class="about-container" id='font'>
