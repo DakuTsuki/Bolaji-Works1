@@ -18,7 +18,7 @@ const Header = React.memo(() => {
     <div>
       <header className="header-large">
         <div class="logo">
-          <img src={Logo} alt="" />
+        <Link to='./home'> <img src={Logo} alt="" /></Link>
         </div>
 
         {/* <nav className={`menu ${isMenuOpen ? "active":""}`}> */}
@@ -47,7 +47,8 @@ const Header = React.memo(() => {
 
   
             <header className="header-small">
-                <img src={Logo} alt="" />
+            <Link to='./home'> <img src={Logo} alt="" /></Link>
+
                 <nav>
                 <button className="menu-toggle" onClick={menuToggle}>
                         <GiHamburgerMenu />
