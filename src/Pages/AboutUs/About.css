@@ -56,7 +56,7 @@ nav ul{
 
 
 .about-container h1{
-    padding-left: 30px;
+    /* padding-left: 30px; */
     padding-top: 50px;
     font-size: 1.5rem;
     line-height: 1.4;
@@ -64,7 +64,7 @@ nav ul{
 }
 
 .about-container h3{
-  padding-left: 30px;
+  /* padding-left: 30px; */
   font-size: 1.5rem;
   line-height: 1.4;
   padding-top: 50px;
@@ -72,21 +72,21 @@ nav ul{
 }
 
  .about-container h2{
-  padding-left: 30px;
+  /* padding-left: 30px; */
   font-size: 1.5rem;
   line-height: 1.4;
   padding-bottom: 5px;
 }
 
  .about-container h4{
-  padding-left: 30px;
+  /* padding-left: 30px; */
   font-size: 1.6rem;
   line-height: 1.4;
   padding-bottom: 5px;
 }
  
   .about-container h5{
-    padding-left: 30px;
+    /* padding-left: 30px; */
     font-size: 1.5rem;
     line-height: 1.4;
     padding-bottom: 5px;
