@@ -160,6 +160,8 @@ header {
   display: flex;
   width: 100%;
   gap: 30px;
+  padding-left: 13%;
+  /* padding: 0 10%; */
 }
 
 .service-image {
@@ -786,6 +788,9 @@ footer .box1 a {
   font-family:  "Nunito Sans", sans-serif;
 
 }
+
+
+
 @media (max-width: 1350px) {
   .sub-contact-container {
     padding: 4% 8%;
@@ -823,6 +828,10 @@ footer .box1 a {
 }
 
 @media (max-width: 970px) {
+  .service-content {
+    padding-left: 0%;
+    /* padding: 0 10%; */
+}
   .sub-contact-container {
     padding: 4% 0%;
     flex-direction: column;

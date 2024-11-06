@@ -31,13 +31,13 @@ const Hero = () => {
             <p class="hero-subtitle">
               <ion-icon name="home"></ion-icon>
 
-              <span>Real Estate Agency</span>
+              <span>Bolaji Aderigbe</span>
             </p>
 
             <h2 class="h1 hero-title">Find Your Dream House By Us</h2>
 
             <p class="hero-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+            Your dream home awaits! Expert agents, personalized service, seamless transactions
             </p>
 
             <button class="btn">Make An Enquiry</button>
